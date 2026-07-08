@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad50f775-339b-4a7b-b421-c662f1d96889" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/TrackerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/controller/WorkoutSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/controller/WorkoutTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/service/WorkoutSessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/service/WorkoutTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/service/impl/WorkoutSessionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/service/impl/WorkoutTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fitness/tracker/TrackerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/TrackerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/config/OpenApiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/controller/WorkoutSessionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/controller/WorkoutTypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/request/UserCreateRequest$UserCreateRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/request/UserCreateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/request/UserUpdateRequest$UserUpdateRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/request/UserUpdateRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/request/WorkoutSessionRequest$WorkoutSessionRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/request/WorkoutSessionRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/request/WorkoutTypeRequest$WorkoutTypeRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/request/WorkoutTypeRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/response/StatisticsResponse$StatisticsResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/response/StatisticsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/response/UserResponse$UserResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/response/UserResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/response/WorkoutSessionResponse$WorkoutSessionResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/response/WorkoutSessionResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/response/WorkoutTypeResponse$WorkoutTypeResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/dto/response/WorkoutTypeResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/entity/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/entity/WorkoutSession$WorkoutSessionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/entity/WorkoutSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/entity/WorkoutType$WorkoutTypeBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/entity/WorkoutType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/enums/IntensityLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/exception/ResourceNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/exception/ValidationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/mapper/WorkoutSessionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/mapper/WorkoutTypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/repository/WorkoutSessionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/repository/WorkoutTypeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/service/WorkoutSessionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/service/WorkoutTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/service/impl/WorkoutSessionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fitness/tracker/service/impl/WorkoutTypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/entity/WorkoutSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/entity/WorkoutSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/mapper/WorkoutSessionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/mapper/WorkoutSessionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/mapper/WorkoutTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/mapper/WorkoutTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/repository/WorkoutSessionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fitness/tracker/repository/WorkoutSessionRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$USER_HOME$/GitHub/tracker" value="feature/add-exceptions" />
+        <entry key="$PROJECT_DIR$" value="feature/add-entities" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Petrova-am&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Petrova-am/tracker.git&quot;,
+    &quot;accountId&quot;: &quot;5378188c-311f-4a2e-a6e1-1b5d488df2f6&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000068284993815" />
+      <entry key="MS500" value="1.092654880460337" />
+      <entry key="S2" value="1.5805625683414668" />
+      <entry key="S5" value="2.0304118660452355" />
+      <entry key="S10" value="2.3799153950326826" />
+      <entry key="S30" value="2.757704131584972" />
+      <entry key="S60" value="3.0543001382390513" />
+      <entry key="M2" value="3.8994199508797736" />
+      <entry key="M5" value="6.16334707547217" />
+      <entry key="M10" value="10.28449029552332" />
+      <entry key="M15" value="14.764214908546068" />
+      <entry key="M30" value="26.662859560458447" />
+      <entry key="H1" value="41.17070105902771" />
+      <entry key="H2" value="54.14797316148899" />
+      <entry key="H4" value="63.48991364423416" />
+      <entry key="D1" value="73.63125157832599" />
+      <entry key="W1" value="75.65358716198806" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.5105011562379066E-140" />
+      <entry key="S5" value="2.08350265236915E-56" />
+      <entry key="S10" value="2.7462141504244263E-28" />
+      <entry key="S30" value="1.9238699633737816E-9" />
+      <entry key="S60" value="1.1151157685888809E-4" />
+      <entry key="M2" value="0.02896884777634799" />
+      <entry key="M5" value="1.013100861648634" />
+      <entry key="M10" value="4.499767610685182" />
+      <entry key="M15" value="8.696895631454362" />
+      <entry key="M30" value="20.794818305423092" />
+      <entry key="H1" value="36.06344831257621" />
+      <entry key="H2" value="49.01645010870727" />
+      <entry key="H4" value="57.58920562071294" />
+      <entry key="D1" value="66.12006572009382" />
+      <entry key="W1" value="67.72764296793278" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9659428340128259" />
+      <entry key="MS500" value="1.0848525949008672" />
+      <entry key="S2" value="1.5774144832417138" />
+      <entry key="S5" value="2.028685995915568" />
+      <entry key="S10" value="2.3788654153026125" />
+      <entry key="S30" value="2.757249445594669" />
+      <entry key="S60" value="3.0536939990909473" />
+      <entry key="M2" value="3.9267491902018503" />
+      <entry key="M5" value="7.170514130323621" />
+      <entry key="M10" value="14.770192134418412" />
+      <entry key="M15" value="23.439829112943283" />
+      <entry key="M30" value="47.42489368754731" />
+      <entry key="H1" value="77.20163960726134" />
+      <entry key="H2" value="103.14090261047477" />
+      <entry key="H4" value="121.06488153834196" />
+      <entry key="D1" value="139.7485252992713" />
+      <entry key="W1" value="143.3808198689777" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FzJQyMuLVrhTnTLbGoZ1RUZHHh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.TrackerApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/aleksandrapetrova/Documents/fitnessTracker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TrackerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tracker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fitness.tracker.TrackerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad50f775-339b-4a7b-b421-c662f1d96889" name="Changes" comment="Initial commit" />
+      <created>1783071951160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783071951160</updated>
+      <workItem from="1783071952191" duration="103000" />
+      <workItem from="1783072071796" duration="786000" />
+      <workItem from="1783073600450" duration="1369000" />
+      <workItem from="1783074988116" duration="12000" />
+      <workItem from="1783347567748" duration="10646000" />
+      <workItem from="1783497662473" duration="1945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/feature/add-dtos" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -30,4 +30,12 @@ public class WorkoutTypeMapper {
                 .updatedAt(workoutType.getUpdatedAt())
                 .build();
     }
+    public void updateEntity(WorkoutTypeRequest request, WorkoutType workoutType) {
+        if (request == null || workoutType == null) {
+            return;
+        }
+
+        workoutType.setName(request.getName());
+        workoutType.setMetValue(request.getMetValue());
+    }
 }

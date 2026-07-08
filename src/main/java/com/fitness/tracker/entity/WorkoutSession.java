@@ -39,8 +39,8 @@ public class WorkoutSession {
     private int durationMinutes;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false, length = 20)
-    private IntensityLevel intensityLevel;
+    @Column(name = "intensity", nullable = false, length = 20)
+    private IntensityLevel intensity;
 
     @Column(name = "calories_burned")
     private double caloriesBurned;

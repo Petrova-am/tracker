@@ -15,7 +15,7 @@ public class WorkoutSessionMapper {
         }
         return WorkoutSession.builder()
                 .durationMinutes(request.getDurationMinutes())
-                .intensityLevel(IntensityLevel.valueOf(request.getIntensity().toUpperCase()))
+                .intensity(IntensityLevel.valueOf(request.getIntensity().toUpperCase()))
                 .workoutDate(request.getWorkoutDate())
                 .build();
     }
@@ -31,11 +31,13 @@ public class WorkoutSessionMapper {
                 .workoutTypeId(session.getWorkoutTypeId() != null ? session.getWorkoutTypeId().getId() : null)
                 .workoutTypeName(session.getWorkoutTypeId() != null ? session.getWorkoutTypeId().getName() : null)
                 .durationMinutes(session.getDurationMinutes())
-                .intensityLevel(session.getIntensityLevel() != null ? session.getIntensityLevel().name() : null)
+                .intensityLevel(session.getIntensity() != null ? session.getIntensity().name() : null)
                 .caloriesBurned(session.getCaloriesBurned())
                 .workoutDate(session.getWorkoutDate())
                 .createdAt(session.getCreatedAt())
                 .updatedAt(session.getUpdatedAt())
                 .build();
     }
+
+
 }
